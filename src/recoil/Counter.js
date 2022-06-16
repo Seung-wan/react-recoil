@@ -1,11 +1,11 @@
-import { atom } from 'recoil';
+import { atom } from 'recoil'
 
 export const counterState = atom({
-  key: 'counterState',
+  key: '#counterState',
   default: 0,
-});
+})
 
 export const friendState = atom({
-  key: 'friendState',
+  key: '#friendState',
   default: [],
-});
+})
