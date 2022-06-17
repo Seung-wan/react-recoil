@@ -14,7 +14,7 @@ const Main = () => {
   const [name, setName] = useState('')
 
   const handleClickCount = () => {
-    setCount(count + 1)
+    setCount((prev) => prev + 1)
   }
 
   const handleClickAddFriendButton = () => {
